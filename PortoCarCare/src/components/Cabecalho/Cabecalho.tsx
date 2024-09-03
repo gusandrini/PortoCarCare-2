@@ -1,4 +1,4 @@
-import PortoCarCare from './Imagens/portocare.png'
+import PortoCarCare from '../Imagens/portocare.png'
 
 export default function Cabecalho(){
     return(
