@@ -29,6 +29,8 @@ export default function Cabecalho(){
                 BwE"><strong>Saiba mais</strong></a>
             </div>
 
+            
+
 
         </header>
     );
