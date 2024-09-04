@@ -28,11 +28,10 @@ function Conteudo(){
                     <p>Medidas preventivas</p>
                     <a href="#">Clique aqui</a>
                 </div>
+            </div>
 
-                <div className="participantes">
+            <div className="participantes">
                     <button><a href="#">Participantes</a></button>
-                </div>
-
             </div>
         </main>
     );
