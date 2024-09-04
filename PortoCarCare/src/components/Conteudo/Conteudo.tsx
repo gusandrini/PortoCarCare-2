@@ -2,7 +2,7 @@ import PortoCarCare from '../Imagens/portocare.png'
 import Calculadora from '../Imagens/calculadora.png'
 import MulherMotor from '../Imagens/mulher-motor.png'
 
-export default function Conteudo(){
+function Conteudo(){
     return (
         <main>
             <div className="inicio">
@@ -37,3 +37,5 @@ export default function Conteudo(){
         </main>
     );
 }
+
+export default Conteudo;

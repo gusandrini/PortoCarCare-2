@@ -15,7 +15,7 @@ import Baixe from '../Imagens/play-apple.png'
 
 
 
-export default function Rodape(){
+function Rodape(){
     return(
         <footer className="rodape">
             <div className="redes">
@@ -92,3 +92,5 @@ export default function Rodape(){
         </footer>
     );
 }
+
+export default Rodape;

@@ -3,7 +3,7 @@ import Porto from '../Imagens/porto-topo.png'
 import App from '../../App';
 
 
-export default function Cabecalho(){
+function Cabecalho(){
     return(
         <header>
             <div className="menu">
@@ -31,3 +31,5 @@ export default function Cabecalho(){
         </header>
     );
 }
+
+export default Cabecalho;
