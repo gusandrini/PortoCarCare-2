@@ -8,7 +8,7 @@ export default function Cabecalho(){
         <header>
             <div className="menu">
                 <nav>
-                    <a href={App}><img src={Porto} alt="logo da Porto Seguro" className='logo-topo' /></a>
+                    <a href="#"><img src={Porto} alt="logo da Porto Seguro" className='logo-topo' /></a>
                     <ul>
                         <li><a href="#">SOBRE NÓS</a></li>
                         <li><a href="#">AJUDA</a></li>
@@ -28,10 +28,6 @@ export default function Cabecalho(){
                 229he&ref=24uzq00229he&gad_source=1&gclid=CjwKCAjw59q2BhBOEiwAKc0ije0oTEJb6IhSgK-USQHB-55pAB6qF13TNSn_obiCI7hn7Xv5KRYsKxoCiVQQAvD_
                 BwE"><strong>Saiba mais</strong></a>
             </div>
-
-            
-
-
         </header>
     );
 }

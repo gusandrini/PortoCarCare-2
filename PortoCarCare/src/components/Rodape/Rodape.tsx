@@ -57,7 +57,7 @@ export default function Rodape(){
                 </h2>
 
                 <div className="logo-porto-preta">
-                <img src="./imagens/porto-preto-branco.png" alt="logo da Porto com as cores em preto e branco" />
+                <img src={PretoBranco} alt="logo da Porto com as cores em preto e branco" />
                 </div>
 
                 <h2>
