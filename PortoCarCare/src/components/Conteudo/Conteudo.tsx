@@ -1,15 +1,34 @@
+import PortoCarCare from '../Imagens/portocare.png'
+import Calculadora from '../Imagens/calculadora.png'
+import MulherMotor from '../Imagens/mulher-motor.png'
+
 export default function Conteudo(){
     return (
         <main>
-            <h2>Aqui fica todo o conteúdo!!</h2>
-            <p>Este é um parágrafo de teste</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam modi reiciendis nesciunt inventore libero explicabo tempora 
-                veritatis deserunt deleniti facilis atque, ut rerum a accusantium illum esse dolores aspernatur porro delectus non? Ducimus, 
-                magni iste provident iure iusto possimus hic qui officia quam ex doloribus culpa non cumque praesentium vel.</p>
-                <div>
-                    
+            <div className="inicio">
+                <img src={PortoCarCare} alt="logo da PortoCarCare" />
+                <h1 className="texto-inicio">Clareza no<br />diagnóstico,<br />solução eficiente.</h1>
+            </div>
+
+            <div className="imagens-inicio">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+            </div>
+
+            <div className="cards">
+                <div className="assistente-virtual">
+                    <img src={Calculadora} alt="calculadora" />
+                    <p>Saiba mais sobre os nossos <br/> serviços</p>
+                    <a href="#">Clique aqui</a>
                 </div>
 
+                <div className="medidas-preventivas">
+                    <img src={MulherMotor} alt="mulher mexendo no motor" />
+                    <p>Medidas preventivas</p>
+                    <a href="#">Clique aqui</a>
+                </div>
+            </div>
         </main>
     );
 }
