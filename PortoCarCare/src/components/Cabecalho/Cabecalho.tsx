@@ -2,7 +2,6 @@
 import Porto from '../Imagens/porto-topo.png'
 import App from '../../App';
 
-
 function Cabecalho(){
     return(
         <header>
