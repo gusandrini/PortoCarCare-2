@@ -1,6 +1,7 @@
 import PortoCarCare from '../Imagens/portocare.png'
 import Calculadora from '../Imagens/calculadora.png'
 import MulherMotor from '../Imagens/mulher-motor.png'
+import { Link } from 'react-router-dom';
 
 function Conteudo(){
     return (
@@ -20,18 +21,18 @@ function Conteudo(){
                 <div className="assistente-virtual">
                     <img src={Calculadora} alt="calculadora" />
                     <p>Saiba mais sobre os nossos <br/> serviços</p>
-                    <a href="#">Clique aqui</a>
+                    <Link to="/saiba">Clique aqui</Link>
                 </div>
 
                 <div className="medidas-preventivas">
                     <img src={MulherMotor} alt="mulher mexendo no motor" />
                     <p>Medidas preventivas</p>
-                    <a href="#">Clique aqui</a>
+                    <Link to="/medidas">Clique aqui</Link>
                 </div>
             </div>
 
             <div className="participantes">
-                    <button><a href="#">Participantes</a></button>
+                    <button><Link to="/participantes">Participantes</Link></button>
             </div>
         </main>
     );

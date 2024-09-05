@@ -5,6 +5,11 @@ import App from './App.tsx'
 // 1 - configurando router
 import{createBrowserRouter, RouterProvider} from "react-router-dom";
 import Sobre from './routes/SObre.tsx';
+import Ajuda from './routes/Ajuda.tsx';
+import Area from './routes/Area.tsx';
+import Saiba from './routes/Saiba.tsx';
+import Medidas from './routes/Medidas.tsx';
+import Participantes from './routes/Participantes.tsx';
 
 
 const router = createBrowserRouter ([
@@ -18,23 +23,23 @@ const router = createBrowserRouter ([
   },
   {
     path: "ajuda",
-    element: <Sobre/>
+    element: <Ajuda/>
   },
   {
     path: "area",
-    element: <Sobre/>
+    element: <Area/>
   },
   {
     path: "saiba",
-    element: <Sobre/>
+    element: <Saiba/>
   },
   {
     path: "medidas",
-    element: <Sobre/>
+    element: <Medidas/>
   },
   {
     path: "participantes",
-    element: <Sobre/>
+    element: <Participantes/>
   },
 ])
 
