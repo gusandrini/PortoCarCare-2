@@ -4,17 +4,37 @@ import App from './App.tsx'
 
 // 1 - configurando router
 import{createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from './routes/Home.tsx';
-import Contact from './routes/Contact.tsx';
+import Sobre from './routes/SObre.tsx';
+
 
 const router = createBrowserRouter ([
   {
     path: "/",
-    element: <Home/>
+    element: <App/>
   },
   {
-    path: "contact",
-    element: <Contact/>
+    path: "sobre",
+    element: <Sobre/>
+  },
+  {
+    path: "ajuda",
+    element: <Sobre/>
+  },
+  {
+    path: "area",
+    element: <Sobre/>
+  },
+  {
+    path: "saiba",
+    element: <Sobre/>
+  },
+  {
+    path: "medidas",
+    element: <Sobre/>
+  },
+  {
+    path: "participantes",
+    element: <Sobre/>
   },
 ])
 
