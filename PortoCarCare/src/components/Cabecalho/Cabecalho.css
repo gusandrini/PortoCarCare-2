@@ -46,23 +46,7 @@
     transition: 0.6s;
   }
 
-/* cabecalho  */
-.cabecalho {
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
-    color: white;
-    background-color: #00a1fc;
-    padding: 20px 20px;
-    font-size: 15px;
-    flex-direction: column;
-    ::marker {
-        color: #00a1fc;
-      }
-      h1{
-        padding: 10px;
-      }
-  }
+
 
   .saiba-mais {
     padding: 10px 20px;
