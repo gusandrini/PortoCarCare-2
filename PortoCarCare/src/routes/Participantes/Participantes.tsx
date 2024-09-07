@@ -9,7 +9,7 @@ const Participantes = () => {
             <Cabecalho/>
 
             <div className="paginas">
-                <Link to="/"> Home / Saiba</Link>
+                <Link to="/"> Home / Participantes</Link>
             </div>
 
             <Rodape/>

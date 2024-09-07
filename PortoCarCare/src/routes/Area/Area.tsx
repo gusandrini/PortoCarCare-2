@@ -9,7 +9,7 @@ const Area = () => {
             <Cabecalho/>
 
             <div className="paginas">
-                <Link to="/"> Home / Saiba</Link>
+                <Link to="/"> Home / Área do cliente</Link>
             </div>
 
             <Rodape/>

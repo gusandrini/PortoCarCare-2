@@ -9,7 +9,7 @@ const Medidas = () => {
             <Cabecalho/>
 
             <div className="paginas">
-                <Link to="/"> Home / Saiba</Link>
+                <Link to="/"> Home / Medidas preventivas</Link>
             </div>
 
             <Rodape/>

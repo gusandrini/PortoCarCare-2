@@ -9,7 +9,7 @@ const Saiba = () => {
             <Cabecalho/>
 
             <div className="paginas">
-                <Link to="/"> Home / Saiba</Link>
+                <Link to="/"> Home / Saiba mais</Link>
             </div>
 
             <Rodape/>

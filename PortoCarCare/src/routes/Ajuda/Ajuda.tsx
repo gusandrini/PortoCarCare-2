@@ -9,7 +9,7 @@ const Ajuda = () => {
             <Cabecalho/>
 
             <div className="paginas">
-                <Link to="/"> Home / Saiba</Link>
+                <Link to="/"> Home / Ajuda</Link>
             </div>
 
             <Rodape/>
