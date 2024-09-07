@@ -13,14 +13,18 @@ const Medidas = () => {
             </div>
 
             <div className="lista">
-                <h1>Conheça um pouco mais dos nossos serviços!</h1>
+                <h1>Medidas peventivas</h1>
                 <ul>
-                    <p>Para utilizar nosso serviço de chatbot, não é necessário ter uma conta na IBM Cloud. Basta clicar na aba "Assistente Virtual", 
-                        onde a Beta, a assistente desenvolvida pela PortoCarCare, estará pronta para te ajudar. <br/>
-                        Ela foi projetada para guiá-lo(a) na identificação do diagnóstico mais preciso e fornecer orientações claras para que você tome a 
-                        melhor decisão na resolução de problemas do seu veículo. <br/> Este serviço foi especialmente criado para pessoas que não possuem 
-                        conhecimento técnico sobre veículos, garantindo que você se sinta seguro(a) e bem informado(a) ao enfrentar qualquer situação 
-                        relacionada ao seu veículo.</p>
+                    <p>1° Evite deixar o carro parado por muito tempo.</p>
+                    <p>2° Lembre-se da troca de fluidos e filtros nos períodos recomendados.</p>
+                    <p>3° Verifique a calibragem e a vida útil dos pneus.</p>
+                    <p>4° Observe a presença de ruídos.</p>
+                    <p>5° Evite dirigir o carro com motor frio ou superaquecido.</p>
+                    <p>6° Faça um seguro automotivo.</p>
+                    <p>7° Verificação das luzes.</p>
+                    <p>8° Manutenção do sistema de freios.</p>
+                    <p>9° Limpeza do sistema de arrefecimento.</p>
+                    <p>10° Condução defensiva</p>
                 </ul>
             </div>
 
