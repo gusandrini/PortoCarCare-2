@@ -5,11 +5,11 @@ import App from './App.tsx'
 // 1 - configurando router
 import{createBrowserRouter, RouterProvider} from "react-router-dom";
 import Sobre from './routes/Sobre-nos/Sobre.tsx';
-import Ajuda from './routes/Ajuda.tsx';
-import Area from './routes/Area.tsx';
-import Saiba from './routes/Saiba.tsx';
-import Medidas from './routes/Medidas.tsx';
-import Participantes from './routes/Participantes.tsx';
+import Ajuda from './routes/Ajuda/Ajuda.tsx';
+import Area from './routes/Area/Area.tsx';
+import Saiba from './routes/Saiba/Saiba.tsx';
+import Medidas from './routes/Medidas/Medidas.tsx';
+import Participantes from './routes/Participantes/Participantes.tsx';
 
 
 const router = createBrowserRouter ([
