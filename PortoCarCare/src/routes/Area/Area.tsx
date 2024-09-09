@@ -2,8 +2,13 @@ import { Link } from 'react-router-dom';
 import Cabecalho from '../../components/Cabecalho/Cabecalho';
 import Rodape from '../../components/Rodape/Rodape';
 import './Area.css'
+import { useState } from 'react';
 
-const Area = () => {
+export const Area = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+
     return(
         <div>
             <Cabecalho/>
@@ -17,4 +22,3 @@ const Area = () => {
     );
 };
 
-export default Area
