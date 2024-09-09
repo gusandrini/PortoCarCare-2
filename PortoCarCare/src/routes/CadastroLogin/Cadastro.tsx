@@ -21,7 +21,7 @@ const Cadastro = () => {
                     <input type="password" placeholder='Digite a senha' />
                     <button>Registrar</button>
                 </form>
-                <Link to="#"><p>Você tem conta? Login</p></Link>
+                <Link to="/login"><p>Você tem conta? Login</p></Link>
                     
             </div>
             <Rodape/>
