@@ -6,10 +6,10 @@ import App from './App.tsx'
 import{createBrowserRouter, RouterProvider} from "react-router-dom";
 import Sobre from './routes/Sobre-nos/Sobre.tsx';
 import Ajuda from './routes/Ajuda/Ajuda.tsx';
-import Area from './routes/Area/Area.tsx';
 import Saiba from './routes/Saiba/Saiba.tsx';
 import Medidas from './routes/Medidas/Medidas.tsx';
 import Participantes from './routes/Participantes/Participantes.tsx';
+import Cadastro from './routes/CadastroLogin/Cadastro.tsx';
 
 
 const router = createBrowserRouter ([
@@ -26,8 +26,8 @@ const router = createBrowserRouter ([
     element: <Ajuda/>
   },
   {
-    path: "area",
-    element: <Area/>
+    path: "cadastro",
+    element: <Cadastro/>
   },
   {
     path: "saiba",
@@ -41,6 +41,11 @@ const router = createBrowserRouter ([
     path: "participantes",
     element: <Participantes/>
   },
+  // {
+  //   path: "login",
+  //   element: <Login/>
+  // }
+
 ])
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
