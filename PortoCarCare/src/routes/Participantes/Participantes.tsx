@@ -16,7 +16,7 @@ const Participantes = () => {
                 <Link to="/"> Home / Participantes</Link>
             </div>
 
-            <div className="cards">
+            <div className="cards-i">
                 <div className="duda">
                     <img src={Duda} alt="integrante Eduarda" />
                     <p>Eduarda Tiemi Akamini Machado<br/>RM:554756</p>
