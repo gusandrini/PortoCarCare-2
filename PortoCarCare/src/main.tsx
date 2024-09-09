@@ -10,6 +10,7 @@ import Saiba from './routes/Saiba/Saiba.tsx';
 import Medidas from './routes/Medidas/Medidas.tsx';
 import Participantes from './routes/Participantes/Participantes.tsx';
 import Cadastro from './routes/CadastroLogin/Cadastro.tsx';
+import Login from './routes/CadastroLogin/Login.tsx';
 
 
 const router = createBrowserRouter ([
@@ -41,10 +42,10 @@ const router = createBrowserRouter ([
     path: "participantes",
     element: <Participantes/>
   },
-  // {
-  //   path: "login",
-  //   element: <Login/>
-  // }
+  {
+    path: "login",
+    element: <Login/>
+  }
 
 ])
 
