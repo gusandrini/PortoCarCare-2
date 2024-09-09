@@ -19,7 +19,7 @@ const Cadastro = () => {
                     <input type="text" placeholder='Digite o nome' />
                     <input type="email" placeholder='Digite o email' />
                     <input type="password" placeholder='Digite a senha' />
-                    <button>Registrar</button>
+                    <Link to="/login"><button>Registrar</button></Link>
                 </form>
                 <Link to="/login"><p>Você tem conta? Login</p></Link>
                     

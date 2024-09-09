@@ -18,7 +18,7 @@ const Login = () => {
                 <form>
                     <input type="email" placeholder='Digite o email' />
                     <input type="password" placeholder='Digite a senha' />
-                    <button>Acessar</button>
+                    <Link to="/"><button>Acessar</button></Link>
                 </form>
                 <Link to="/cadastro"><p>Você não tem conta? Cadastro</p></Link>
                     
