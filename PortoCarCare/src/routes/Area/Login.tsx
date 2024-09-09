@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import Cabecalho from '../../components/Cabecalho/Cabecalho';
 import Rodape from '../../components/Rodape/Rodape';
-import './Area.css'
+import './Login.css'
 import { useState } from 'react';
 
-const Area = () => {
+const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -48,7 +48,13 @@ const Area = () => {
                             </div>
 
                             <div className="login-form-btn">
-                                <button className="login-btn">Login</button>
+                                <Link to="/"><button className="login-btn">Login</button></Link>
+                            </div>
+
+                            <div className="text-sconta">
+                                <span className="texto1">Não possui conta?</span>
+                                <Link className="texto2" href="#">Criar conta</Link>
+                                <link className="texto2" href="#"></link>
                             </div>
 
                         </form>
@@ -65,4 +71,4 @@ const Area = () => {
     );
 };
 
-export default Area
+export default Login

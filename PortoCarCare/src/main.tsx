@@ -10,6 +10,7 @@ import Area from './routes/Area/Area.tsx';
 import Saiba from './routes/Saiba/Saiba.tsx';
 import Medidas from './routes/Medidas/Medidas.tsx';
 import Participantes from './routes/Participantes/Participantes.tsx';
+import Login from './routes/Area/Area.tsx';
 
 
 const router = createBrowserRouter ([
@@ -26,8 +27,8 @@ const router = createBrowserRouter ([
     element: <Ajuda/>
   },
   {
-    path: "area",
-    element: <Area/>
+    path: "login",
+    element: <Login/>
   },
   {
     path: "saiba",
