@@ -4,9 +4,9 @@ import Rodape from '../../components/Rodape/Rodape';
 import './Sobre.css'
 
 const Sobre = () => {
-    return(
+    return (
         <div>
-            <Cabecalho/>
+            <Cabecalho />
 
             <div className="paginas">
                 <Link to="/"> Home / Sobre nós</Link>
@@ -16,7 +16,7 @@ const Sobre = () => {
                 <h1>
                     Sobre nós
                 </h1>
-                <p><br/>O aplicativo PortoCarCare oferece uma solução inovadora para motoristas,
+                <p><br />O aplicativo PortoCarCare oferece uma solução inovadora para motoristas,
                     com ou sem conhecimento prévio sobre a mecânica de um carro,
                     preocupados com o diagnóstico do problema e a manutenção de seus veículos.
                     O objetivo do aplicativo é usar da tecnologia para proporcionar aos motoristas
@@ -29,11 +29,11 @@ const Sobre = () => {
                     possível.
                     Além disso, o aplicativo com uma certa frequência envia notificações aos usuários,
                     buscando fornecer a eles dicas e lembretes úteis sobre a manutenção preventiva,
-                    e com isso, ajudar a prolongar a vida útil dos veículos e evitar acidentes ou problemas futuros.<br/><br/>
+                    e com isso, ajudar a prolongar a vida útil dos veículos e evitar acidentes ou problemas futuros.<br /><br />
                 </p>
             </div>
 
-            <Rodape/>
+            <Rodape />
         </div>
     );
 };

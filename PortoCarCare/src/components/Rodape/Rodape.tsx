@@ -15,37 +15,37 @@ import Baixe from '../Imagens/play-apple.png'
 
 
 
-function Rodape(){
-    return(
+function Rodape() {
+    return (
         <footer className="rodape">
             <div className="redes">
                 <h2>
-                LINKS RÁPIDOS!
+                    LINKS RÁPIDOS!
                 </h2>
                 <ul>
                     <li>
-                        <a href="#"><img className='linkr' src={Question}/>Perguntas
-                        frequentes</a>
+                        <a href="#"><img className='linkr' src={Question} />Perguntas
+                            frequentes</a>
                     </li>
                     <li>
-                        <a href="#"><img className='linkr' src={Localizacao}/>Endereços</a>
+                        <a href="#"><img className='linkr' src={Localizacao} />Endereços</a>
                     </li>
                     <li>
-                        <a href="#"><img className='linkr' src={Whats}/>WhatsApp</a>
+                        <a href="#"><img className='linkr' src={Whats} />WhatsApp</a>
                     </li>
                     <li>
-                        <a href="#"><img className='linkr' src={Telefone}/>SAC e telefones</a>
+                        <a href="#"><img className='linkr' src={Telefone} />SAC e telefones</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"><img className='linkr' src={Ouvidoria}/> Ouvidoria</a>
+                        <a href="#"><img className='linkr' src={Ouvidoria} /> Ouvidoria</a>
                     </li>
                     <li>
-                        <a href="#"><img className='linkr' src={Exclamacao}/>Canal de denúncias</a>
+                        <a href="#"><img className='linkr' src={Exclamacao} />Canal de denúncias</a>
                     </li>
                     <li>
-                        <a href="#"><img className='linkr' src={Chat}/>Chat online</a>
+                        <a href="#"><img className='linkr' src={Chat} />Chat online</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@ function Rodape(){
                 </h2>
 
                 <div className="logo-porto-preta">
-                <img src={PretoBranco} alt="logo da Porto com as cores em preto e branco" />
+                    <img src={PretoBranco} alt="logo da Porto com as cores em preto e branco" />
                 </div>
 
                 <h2>
@@ -66,26 +66,26 @@ function Rodape(){
                 </h2>
                 <ul>
                     <li><a className='facebook-Porto' target='_blank' rel='noopener' title='site Facebook' href="https://www.facebook.com/porto"> <img src={Face}
-                    alt="logo facebook" /></a>
+                        alt="logo facebook" /></a>
                     </li>
                     <li><a className='instagram-Porto' target='_blank' rel='noopener' title='site Instagram' href="https://www.instagram.com/porto/"> <img src={Insta}
-                    alt="logo instagram" /></a>
+                        alt="logo instagram" /></a>
                     </li>
                     <li><a className='youtube' target='_blank' rel='noopener' title='site youtube' href="https://www.youtube.com/porto/"> <img src={Youtube}
-                    alt="logo youtube" /></a>
+                        alt="logo youtube" /></a>
                     </li>
                     <li><a className='x' target='_blank' rel='noopener' title='site X' href="https://twitter.com/portoseguro"> <img src={X}
-                    alt="logo X" /></a>
+                        alt="logo X" /></a>
                     </li>
                     <li><a className='Linkedin' target='_blank' rel='noopener' title='site Linkedin' href="https://www.linkedin.com/company/porto/?originalSubdomain=br">
-                    <img src={LinkeD} alt="logo Linkedin" /></a>
+                        <img src={LinkeD} alt="logo Linkedin" /></a>
                     </li>
                 </ul>
 
                 <div className="baixe-app">
-                <h2>Baixe o App da Porto:</h2>
-                <a className='apporto' target='_blank' rel='noopener' title='site apple e google store' href="https://www.portoseguro.com.br/app-porto-download">
-                <img src={Baixe} alt="logo apple e google store" /></a>
+                    <h2>Baixe o App da Porto:</h2>
+                    <a className='apporto' target='_blank' rel='noopener' title='site apple e google store' href="https://www.portoseguro.com.br/app-porto-download">
+                        <img src={Baixe} alt="logo apple e google store" /></a>
                 </div>
 
             </div>

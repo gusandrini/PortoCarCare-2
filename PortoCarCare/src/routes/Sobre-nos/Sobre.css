@@ -4,13 +4,13 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Inter", sans-serif;
-  }
+}
 
 /* paginas */
 
 
 
-.paginas{
+.paginas {
     display: flex;
     justify-content: flex-start;
     margin: 30px;
@@ -18,15 +18,14 @@
     font-size: 30px;
 }
 
-.paginas a{
+.paginas a {
     color: gray;
 }
+
 /* conteudo */
-.conteudo{
+.conteudo {
     padding: 10px 10px 0 0;
     font-size: 25px;
     color: #000000;
     margin: 10px 60px;
 }
-
-

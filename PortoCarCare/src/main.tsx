@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 
 // 1 - configurando router
-import{createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Sobre from './routes/Sobre-nos/Sobre.tsx';
 import Ajuda from './routes/Ajuda/Ajuda.tsx';
 import Saiba from './routes/Saiba/Saiba.tsx';
@@ -13,38 +13,38 @@ import Cadastro from './routes/CadastroLogin/Cadastro.tsx';
 import Login from './routes/CadastroLogin/Login.tsx';
 
 
-const router = createBrowserRouter ([
+const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
+    element: <App />
   },
   {
     path: "sobre",
-    element: <Sobre/>
+    element: <Sobre />
   },
   {
     path: "ajuda",
-    element: <Ajuda/>
+    element: <Ajuda />
   },
   {
     path: "cadastro",
-    element: <Cadastro/>
+    element: <Cadastro />
   },
   {
     path: "login",
-    element: <Login/>
+    element: <Login />
   },
   {
     path: "saiba",
-    element: <Saiba/>
+    element: <Saiba />
   },
   {
     path: "medidas",
-    element: <Medidas/>
+    element: <Medidas />
   },
   {
     path: "participantes",
-    element: <Participantes/>
+    element: <Participantes />
   }
 ])
 

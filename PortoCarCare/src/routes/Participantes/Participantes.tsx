@@ -8,9 +8,9 @@ import Vi from '../../components/Imagens/foto-vitor.jpg'
 import './Participantes.css'
 
 const Participantes = () => {
-    return(
+    return (
         <div>
-            <Cabecalho/>
+            <Cabecalho />
 
             <div className="paginas">
                 <Link to="/"> Home / Participantes</Link>
@@ -19,21 +19,21 @@ const Participantes = () => {
             <div className="cards-i">
                 <div className="duda">
                     <img src={Duda} alt="integrante Eduarda" />
-                    <p>Eduarda Tiemi Akamini Machado<br/>RM:554756</p>
+                    <p>Eduarda Tiemi Akamini Machado<br />RM:554756</p>
                 </div>
 
                 <div className="gu">
-                    <img src={Gu} alt="integrante gustavo"/>
-                    <p>Gustavo de Oliveira Turci Sandrini<br/>RM:557505</p>
+                    <img src={Gu} alt="integrante gustavo" />
+                    <p>Gustavo de Oliveira Turci Sandrini<br />RM:557505</p>
                 </div>
 
                 <div className="vi">
-                    <img src={Vi} alt="integrante Vitor"/>
-                    <p>Vitor Vinicios Araújo<br/>RM:556241</p>
+                    <img src={Vi} alt="integrante Vitor" />
+                    <p>Vitor Vinicios Araújo<br />RM:556241</p>
                 </div>
             </div>
 
-            <Rodape/>
+            <Rodape />
         </div>
     );
 };

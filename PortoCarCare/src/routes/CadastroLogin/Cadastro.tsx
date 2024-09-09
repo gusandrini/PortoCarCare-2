@@ -4,9 +4,9 @@ import Rodape from '../../components/Rodape/Rodape';
 import './Cadastro.css'
 
 const Cadastro = () => {
-    return(
+    return (
         <div>
-            <Cabecalho/>
+            {/* <Cabecalho /> */}
 
             <div className="paginas">
                 <Link to="/"> Home / Área do cliente</Link>
@@ -22,11 +22,11 @@ const Cadastro = () => {
                         <Link to="/login"><button>Registrar</button></Link>
                     </form>
                     <Link to="/login"><p>Você tem conta? Login</p></Link>
-                        
+
                 </div>
             </div>
-           
-            <Rodape/>
+
+            {/* <Rodape /> */}
         </div>
     );
 };

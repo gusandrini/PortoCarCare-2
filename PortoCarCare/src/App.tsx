@@ -5,12 +5,12 @@ import './components/Cabecalho/Cabecalho.css'
 import './components/Conteudo/Conteudo.css'
 import './components/Rodape/Rodape.css'
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Cabecalho/>
-        <Conteudo/>
-      <Rodape/>
+      <Cabecalho />
+      <Conteudo />
+      <Rodape />
     </div>
 
   );

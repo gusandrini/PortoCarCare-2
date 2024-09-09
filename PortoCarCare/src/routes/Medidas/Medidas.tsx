@@ -4,9 +4,9 @@ import Rodape from '../../components/Rodape/Rodape';
 import './Medidas.css'
 
 const Medidas = () => {
-    return(
+    return (
         <div>
-            <Cabecalho/>
+            <Cabecalho />
 
             <div className="paginas">
                 <Link to="/"> Home / Medidas preventivas</Link>
@@ -28,7 +28,7 @@ const Medidas = () => {
                 </ul>
             </div>
 
-            <Rodape/>
+            <Rodape />
         </div>
     );
 };
