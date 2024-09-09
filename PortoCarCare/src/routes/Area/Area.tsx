@@ -47,6 +47,10 @@ const Area = () => {
                                 <span className="focus-input" data-placeholder="Password"></span>
                             </div>
 
+                            <div className="login-form-btn">
+                                <button className="login-btn">Login</button>
+                            </div>
+
                         </form>
                     </div>
                 </div>
