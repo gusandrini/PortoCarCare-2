@@ -115,8 +115,9 @@
     padding: 30px;
   }
 
-  .assistente-virtual{
+  .assistente-virtual {
     border-radius: 80px;
+
     p {
       margin: 10px;
       font-size: 30px;
@@ -130,6 +131,7 @@
 
   .medidas-preventivas {
     border-radius: 80px;
+
     p {
       margin: 10px;
       font-size: 30px;

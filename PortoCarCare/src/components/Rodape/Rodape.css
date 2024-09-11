@@ -182,16 +182,18 @@ footer {
 
 /* Desktops e outros */
 @media (min-width: 1025px) {
-  footer{
+  footer {
     display: flex;
     justify-content: space-evenly;
   }
+
   .parceiros {
 
-    img{
+    img {
       width: 90px;
       margin: 5px;
     }
+
     .logo-porto-preta {
       img {
         width: 220px;
