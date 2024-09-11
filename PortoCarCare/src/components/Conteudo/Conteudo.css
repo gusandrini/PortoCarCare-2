@@ -163,4 +163,14 @@
 }
 
 /* Desktops e outros */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+  .cards {
+    padding: 50px;
+  }
+
+  .participantes{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}
