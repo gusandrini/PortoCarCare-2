@@ -45,7 +45,21 @@
 }
 
 /* Tablets */
-@media (min-width: 650px) and (max-width: 1024px) {}
+@media (min-width: 650px) and (max-width: 1024px) {
+  .lista-s {
+    margin: 10px;
+
+    h1 {
+      margin: 15px;
+      font-size: 40px;
+    }
+
+    p {
+      margin: 15px;
+      font-size: 30px;
+    }
+  }
+}
 
 /* Desktops e outros */
 @media (min-width: 1025px) {}
