@@ -29,8 +29,8 @@
 /* Responsivo */
 
 /* Smartphones */
-@media (max-width: 900px){
-  .lista-s{
+@media (max-width: 900px) {
+  .lista-s {
     margin: 10px;
 
     h1 {
@@ -45,11 +45,7 @@
 }
 
 /* Tablets */
-@media (min-width: 650px) and (max-width: 1024px){
-
-}
+@media (min-width: 650px) and (max-width: 1024px) {}
 
 /* Desktops e outros */
-@media (min-width: 1025px){
-
-}
+@media (min-width: 1025px) {}

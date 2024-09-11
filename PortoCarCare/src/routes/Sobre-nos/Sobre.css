@@ -35,8 +35,18 @@
 
 /* Smartphones */
 @media (max-width: 900px){
-    
+    .conteudo{
+        margin: 10px;
 
+        h1 {
+          font-size: 30px;
+        }
+    
+        p {
+          margin: 5px;
+          font-size: 15px;
+        }
+    }
 }
 
 /* Tablets */
