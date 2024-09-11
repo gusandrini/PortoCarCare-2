@@ -93,3 +93,32 @@
   justify-content: end;
   margin: 20px;
 }
+
+
+/* Responsivo */
+
+/* Smartphones */
+@media (max-width: 900px) {
+  .inicio {
+    h1 {
+      font-size: 50px;
+    }
+
+    img {
+      width: 250px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px) {}
+
+/* Desktops e outros */
+@media (min-width: 1025px) {}

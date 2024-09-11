@@ -58,3 +58,26 @@ nav ul li a {
   border-radius: 10px;
   color: rgb(3, 10, 62);
 }
+
+/* Responsivo */
+
+/* Smartphones */
+@media (max-width: 900px) {
+  .menu {
+    img {
+      width: 33px;
+    }
+
+    nav ul li a {
+      font-size: 6px;
+    }
+
+  }
+
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px) {}
+
+/* Desktops e outros */
+@media (min-width: 1025px) {}
