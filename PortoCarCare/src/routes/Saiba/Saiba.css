@@ -24,3 +24,22 @@
   font-weight: bold;
   padding: 0 0 0 20px;
 }
+
+
+/* Responsivo */
+
+/* Smartphones */
+@media (max-width: 900px){
+    
+
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px){
+
+}
+
+/* Desktops e outros */
+@media (min-width: 1025px){
+
+}

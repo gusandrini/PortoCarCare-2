@@ -29,3 +29,22 @@
     color: #000000;
     margin: 10px 60px;
 }
+
+
+/* Responsivo */
+
+/* Smartphones */
+@media (max-width: 900px){
+    
+
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px){
+
+}
+
+/* Desktops e outros */
+@media (min-width: 1025px){
+
+}
