@@ -87,24 +87,31 @@
 /* Responsivo */
 
 /* Smartphones */
-@media (max-width: 900px){
-    .cards-i{
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-      img{
-        width: 370px;
-      }
+@media (max-width: 900px) {
+  .cards-i {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    img {
+      width: 370px;
     }
+  }
 
 }
 
 /* Tablets */
-@media (min-width: 650px) and (max-width: 1024px){
+@media (min-width: 650px) and (max-width: 1024px) {
+  .cards-i {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
 
+    img {
+      width: 470px;
+    }
+  }
 }
 
 /* Desktops e outros */
-@media (min-width: 1025px){
-
-}
+@media (min-width: 1025px) {}
