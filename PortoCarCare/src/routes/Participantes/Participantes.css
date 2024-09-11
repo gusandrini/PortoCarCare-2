@@ -114,4 +114,15 @@
 }
 
 /* Desktops e outros */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+  .cards-i {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+
+    img {
+      width: 380px;
+    }
+  }
+}

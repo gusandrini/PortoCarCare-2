@@ -62,4 +62,18 @@
 }
 
 /* Desktops e outros */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+  .lista-s {
+    margin: 20px;
+
+    h1 {
+      margin: 15px;
+      font-size: 40px;
+    }
+
+    p {
+      margin: 15px;
+      font-size: 30px;
+    }
+  }
+}

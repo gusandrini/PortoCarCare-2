@@ -78,4 +78,26 @@
 }
 
 /* Desktops e outros */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+  .paginas {
+    margin: 20px;
+
+    a {
+      font-size: 30px;
+    }
+  }
+
+  .lista-m {
+    margin: 30px;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      margin: 5px;
+      font-size: 30px;
+    }
+  }
+
+}
