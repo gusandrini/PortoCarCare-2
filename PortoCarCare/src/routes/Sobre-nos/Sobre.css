@@ -51,6 +51,18 @@
 
 /* Tablets */
 @media (min-width: 650px) and (max-width: 1024px){
+    .conteudo{
+        margin: 10px;
+
+        h1 {
+          font-size: 50px;
+        }
+    
+        p {
+          margin: 5px;
+          font-size: 25px;
+        }
+    }
 
 }
 
