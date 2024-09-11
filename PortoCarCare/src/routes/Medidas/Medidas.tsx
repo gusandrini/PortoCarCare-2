@@ -12,7 +12,7 @@ const Medidas = () => {
                 <Link to="/"> Home / Medidas preventivas</Link>
             </div>
 
-            <div className="lista">
+            <div className="lista-m">
                 <h1>Medidas peventivas</h1>
                 <ul>
                     <p>1° Evite deixar o carro parado por muito tempo.</p>

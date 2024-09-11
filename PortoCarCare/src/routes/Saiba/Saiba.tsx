@@ -12,7 +12,7 @@ const Saiba = () => {
                 <Link to="/"> Home / Saiba mais</Link>
             </div>
 
-            <div className="lista">
+            <div className="lista-s">
                 <h1>Conheça um pouco mais dos nossos serviços!</h1>
                 <ul>
                     <p>Para utilizar nosso serviço de chatbot, não é necessário ter uma conta na IBM Cloud. Basta clicar na aba "Assistente Virtual",
