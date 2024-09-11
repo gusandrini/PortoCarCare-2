@@ -115,10 +115,52 @@
     padding: 30px;
   }
 
+  .assistente-virtual{
+    border-radius: 80px;
+    p {
+      margin: 10px;
+      font-size: 30px;
+    }
+
+    a {
+      border-radius: 30px;
+      font-size: 40px;
+    }
+  }
+
+  .medidas-preventivas {
+    border-radius: 80px;
+    p {
+      margin: 10px;
+      font-size: 30px;
+    }
+
+    a {
+      border-radius: 30px;
+      font-size: 40px;
+    }
+  }
+
 }
 
 /* Tablets */
-@media (min-width: 650px) and (max-width: 1024px) {}
+@media (min-width: 650px) and (max-width: 1024px) {
+  .inicio {
+    h1 {
+      font-size: 75px;
+    }
+
+    img {
+      width: 350px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+}
 
 /* Desktops e outros */
 @media (min-width: 1025px) {}
