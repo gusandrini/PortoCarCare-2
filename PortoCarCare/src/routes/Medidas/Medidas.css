@@ -30,7 +30,22 @@
 
 /* Smartphones */
 @media (max-width: 900px){
-    
+    .paginas{
+      margin: 20px;
+      a{
+        font-size: 20px;
+      }
+    }
+    .lista{
+      margin: 10px;
+      h1{
+        font-size: 30px;
+      }
+      p{
+        margin: 5px;
+        font-size: 15px;
+      }
+    }
 
 }
 
