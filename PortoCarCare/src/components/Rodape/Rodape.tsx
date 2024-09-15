@@ -71,7 +71,7 @@ function Rodape() {
                     <li><a className='instagram-Porto' target='_blank' rel='noopener' title='site Instagram' href="https://www.instagram.com/porto/"> <img src={Insta}
                         alt="logo instagram" /></a>
                     </li>
-                    <li><a className='youtube' target='_blank' rel='noopener' title='site youtube' href="https://www.youtube.com/porto/"> <img src={Youtube}
+                    <li><a className='youtube' target='_blank' rel='noopener' title='site youtube' href="https://www.youtube.com/@portoseguro"> <img src={Youtube}
                         alt="logo youtube" /></a>
                     </li>
                     <li><a className='x' target='_blank' rel='noopener' title='site X' href="https://twitter.com/portoseguro"> <img src={X}
